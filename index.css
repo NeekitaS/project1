@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family:serif;
+}
+body{
+    background-image: url("./images/bg3blackRec.jpg");
+    background-size: cover;
+}
+.navBar{
+    height: 3.5rem;
+    /* border:0.25rem solid white; */
+    color: aliceblue;
+    display: flex; 
+    align-items: center;
+}
+.logo{
+    width: 10%;
+
+}
+.navOptions
+{
+    width: 40%;
+    display: flex;
+    
+}
+.optButton
+{
+    height: 3.5rem;
+    width: 8rem;
+    background: transparent;
+    font-size: 1.1rem;
+    color: aliceblue;
+    border: none;
+}
+.register
+{
+    margin-left:30%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.register button{
+    margin-left: 0.85rem;
+    height: 2.5rem;
+    width: 6.5rem;
+    background-color: rgb(223, 176, 211);
+    color:black;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 23%;
+    
+}
+.heading
+{
+    margin-top: 5rem;
+    height: 13rem;
+    width: 25rem;
+    color: aliceblue;
+    position: relative;
+    left:34.78rem;
+    text-align: center;
+}
+.searchBar{
+    height: 2.8rem;
+    width: 35.77rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:30rem;
+}
+.search-input
+{
+    height: 2.76rem;
+    width: 33rem;
+    border: none;
+    border-radius: 23px;
+    background-image: linear-gradient(rgb(209, 165, 236),rgb(250, 213, 232));
+}
+.search-icon
+{
+    margin:0.25rem;
+    height: 2.76rem;
+    width: 2.9rem;
+    border-radius: 17px;
+    background-color: rgba(255, 1, 208, 0.321);
+    color: white;
+    size: 1.56rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-para
+{
+    margin-top:7rem;
+    padding: 3rem 9rem 3rem 9rem;
+    border: 0.2rem solid white;
+    color:aliceblue;
+    display: flex;
+}
+.video{
+    margin-right: 7.5rem;
+    height: 20rem;
+    width: 32.4rem;
+    border: 0.18rem solid aqua;
+}
+.para{
+    width: 37rem;
+    border: 0.18rem solid aqua;
+}

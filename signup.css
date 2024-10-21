@@ -1,0 +1,50 @@
+.signup-div
+{
+    margin: 3rem 5rem;
+    padding-top: 1.4rem;
+    height: 39rem;
+    width: 33rem;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-radius: 68px;
+    background: rgb(213,180,243);
+    background: radial-gradient(circle, rgba(213,180,243,1) 0%, rgba(237,113,107,1) 33%, rgba(116,232,217,1) 96%);
+    text-align: center;
+}
+
+h1{
+      margin-top: 3rem;
+}
+
+.form-div
+{
+    margin-top: 3rem;
+}
+.form-input
+{
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 20rem;
+    border: none;
+    border-radius: 23px;
+    background-color: rgb(249, 224, 251);
+}
+
+.signup-button, .login-button
+{
+    margin-top: 2rem;
+    height: 2.6rem;
+    width: 6rem;
+    border: none;
+    background-image: linear-gradient(rgba(37, 38, 41, 0.826),rgb(0, 0, 0));
+    color: antiquewhite;
+    font-weight: bold;
+}
+.have-account{
+    margin-top: 4.5rem;
+    color: rgba(28, 37, 218, 0.996);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
